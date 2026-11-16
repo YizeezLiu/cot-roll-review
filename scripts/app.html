@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CoT Roll Review</title>
+<style>
+:root{
+  --bg:#f6f5f1;--panel:#fff;--fg:#1c1c1a;--mut:#6d6b64;--faint:#9a978e;--line:#e3e0d8;--soft:#efede7;
+  --acc:#2d63a6;--acc-soft:#e3ecf7;--ok:#2c7a4b;--ok-soft:#e1f1e7;--warn:#b0561f;--warn-soft:#f8e8dc;
+  --info:#7a5aa8;--info-soft:#ede6f6;--hl:#fde68a;
+  --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#141413;--panel:#1d1d1b;--fg:#e9e7e1;--mut:#a3a097;--faint:#77746c;--line:#33322e;--soft:#262623;
+  --acc:#82b1ea;--acc-soft:#1f2b3a;--ok:#71c493;--ok-soft:#1b2c22;--warn:#e69a6c;--warn-soft:#33241a;
+  --info:#b79be0;--info-soft:#2a2336;--hl:#7a5f12;
+}}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Segoe UI",sans-serif}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+kbd{font:12px var(--mono);background:var(--soft);border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 5px}
+
+/* top bar */
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:16px;padding:10px 18px;background:var(--panel);border-bottom:1px solid var(--line)}
+.top h1{margin:0;font-size:16px;white-space:nowrap}
+.top .stats{color:var(--mut);font-size:13px;white-space:nowrap}
+.top .search{flex:1;max-width:460px;margin-left:auto;position:relative}
+.top input{width:100%;padding:7px 12px 7px 32px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);font:inherit;font-size:14px}
+.top input:focus{outline:2px solid var(--acc-soft);border-color:var(--acc)}
+.top .search:before{content:"⌕";position:absolute;left:11px;top:5px;color:var(--faint);font-size:16px}
+.top a{color:var(--acc);font-size:13px;white-space:nowrap;text-decoration:none}
+.help{color:var(--faint);font-size:12px;white-space:nowrap}
+
+.layout{display:grid;grid-template-columns:300px minmax(0,1fr);height:calc(100vh - 55px)}
+
+/* sidebar */
+.side{border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;background:var(--panel)}
+.filters{padding:12px 12px 8px;border-bottom:1px solid var(--line)}
+.fl{font-size:11px;font-weight:600;color:var(--faint);text-transform:uppercase;letter-spacing:.05em;margin:0 0 5px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+.chip{font-size:12.5px;padding:2px 10px;border-radius:14px;border:1px solid var(--line);color:var(--mut)}
+.chip:hover{border-color:var(--faint)}
+.chip.on{background:var(--acc-soft);border-color:var(--acc);color:var(--acc)}
+.chip .c{opacity:.7;margin-left:3px}
+.list{overflow:auto;flex:1;padding:6px}
+.item{display:block;width:100%;text-align:left;padding:8px 10px;border-radius:8px;margin-bottom:2px;border:1px solid transparent}
+.item:hover{background:var(--soft)}
+.item.cur{background:var(--acc-soft);border-color:var(--acc)}
+.item .row{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--mut)}
+.item .q{font-size:13.5px;line-height:1.4;margin-top:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.dot{width:8px;height:8px;border-radius:50%;flex:none}
+.dot.ok{background:var(--ok)}.dot.trunc{background:var(--warn)}.dot.inonly{background:var(--faint)}
+.empty{color:var(--faint);padding:20px;text-align:center;font-size:13px}
+
+/* badges */
+.kb{font-size:11.5px;font-weight:600;padding:1px 8px;border-radius:10px;white-space:nowrap}
+.k-img1{background:#e3ecf7;color:#2d63a6}.k-imgN{background:#e5f1ee;color:#24735f}.k-text{background:#efede7;color:#5f5c55}
+.k-vshort{background:#f6e7ef;color:#a3406f}.k-vlong{background:#ede6f6;color:#6d4ea0}
+@media (prefers-color-scheme:dark){.k-img1{background:#1f2b3a;color:#82b1ea}.k-imgN{background:#183029;color:#7cc9b2}.k-text{background:#2a2926;color:#bdb9ae}.k-vshort{background:#341f2a;color:#e48ab4}.k-vlong{background:#2a2336;color:#b79be0}}
+.tag{display:inline-flex;align-items:center;gap:4px;font-size:12.5px;padding:2px 9px;border-radius:6px;background:var(--soft);color:var(--mut);white-space:nowrap}
+.tag.ok{background:var(--ok-soft);color:var(--ok)}.tag.warn{background:var(--warn-soft);color:var(--warn)}.tag.info{background:var(--info-soft);color:var(--info)}
+
+/* main */
+.main{overflow:auto;min-height:0}
+.inner{max-width:1180px;margin:0 auto;padding:20px 24px 80px}
+.head{display:flex;align-items:flex-start;gap:12px;margin-bottom:6px}
+.head h2{margin:0;font-size:19px;line-height:1.45;flex:1}
+.nav{display:flex;gap:4px;flex:none}
+.nav button{border:1px solid var(--line);border-radius:7px;padding:3px 11px;background:var(--panel);font-size:13px;color:var(--mut)}
+.nav button:hover{border-color:var(--faint);color:var(--fg)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+.sid{font:12px var(--mono);color:var(--faint);word-break:break-all;margin-bottom:16px}
+.sid a{color:var(--faint)}
+
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-bottom:16px}
+.card>.ch{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line);font-size:13px;font-weight:600;color:var(--mut)}
+.card>.ch .sp{flex:1}
+.card>.cb{padding:14px 16px}
+.lbtn{font-size:12.5px;font-weight:500;color:var(--acc);padding:2px 6px;border-radius:5px}
+.lbtn:hover{background:var(--acc-soft)}
+
+/* media */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.grid.one{grid-template-columns:minmax(0,640px)}
+.thumb{position:relative;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--soft)}
+.thumb img{display:block;width:100%;height:auto;cursor:zoom-in}
+.grid:not(.one) .thumb img{height:170px;object-fit:cover}
+.thumb .n{position:absolute;left:6px;top:6px;font:600 11.5px var(--mono);background:#000b;color:#fff;padding:1px 6px;border-radius:5px}
+.viewer{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
+.stage{position:relative;background:#000;border-radius:10px;overflow:hidden;display:flex;justify-content:center;align-items:center;height:min(56vh,560px)}
+.stage img{max-width:100%;max-height:100%;object-fit:contain;cursor:zoom-in}
+.stage .ov{position:absolute;left:10px;top:10px;font:600 13px var(--mono);background:#000a;color:#fff;padding:3px 9px;border-radius:6px}
+.ctl{display:flex;align-items:center;gap:10px}
+.ctl button{border:1px solid var(--line);border-radius:7px;padding:3px 12px;background:var(--panel);font-size:13px}
+.ctl input[type=range]{flex:1;accent-color:var(--acc)}
+.ctl .t{font:12.5px var(--mono);color:var(--mut);min-width:118px;text-align:right}
+.strip{display:flex;gap:4px;overflow-x:auto;padding-bottom:4px}
+.strip img{height:54px;border-radius:4px;border:2px solid transparent;cursor:pointer;opacity:.75;flex:none}
+.strip img.cur{border-color:var(--acc);opacity:1}
+.strip img:hover{opacity:1}
+
+/* conversation */
+.hist{margin-bottom:10px}
+.bub{max-width:88%;padding:9px 13px;border-radius:12px;margin:8px 0;white-space:pre-wrap;word-break:break-word;line-height:1.6}
+.bub.user{background:var(--acc-soft);margin-right:auto;border-top-left-radius:4px}
+.bub.assistant{background:var(--soft);margin-left:auto;border-top-right-radius:4px}
+.bub .who{display:block;font-size:11px;font-weight:600;color:var(--faint);text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px}
+.bub.focus{outline:2px solid var(--acc);background:var(--panel);max-width:100%;font-size:15.5px}
+.ichip{display:inline-block;font:600 11.5px var(--mono);padding:0 6px;margin:0 2px;border-radius:5px;background:var(--panel);border:1px solid var(--line);color:var(--acc);cursor:pointer;white-space:nowrap}
+.ichip:hover{border-color:var(--acc)}
+.ref{color:var(--acc);text-decoration:underline dotted;cursor:pointer}
+.more{font-size:13px;color:var(--acc);padding:4px 0}
+
+/* compare */
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ans{border-radius:10px;padding:12px 14px;white-space:pre-wrap;word-break:break-word;line-height:1.65;max-height:520px;overflow:auto}
+.ans.gt{background:var(--ok-soft)}.ans.te{background:var(--acc-soft)}
+.ans .lb{display:flex;justify-content:space-between;font-size:11.5px;font-weight:600;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px;white-space:normal}
+.ans .none{color:var(--warn);font-style:italic}
+
+/* reasoning */
+.rsn{white-space:pre-wrap;word-break:break-word;line-height:1.75;font-size:14.5px;max-width:82ch;margin:0 auto;max-height:70vh;overflow:auto;padding-right:6px}
+.rsn.closed{max-height:9.5em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 55%,transparent)}
+mark{background:var(--hl);color:inherit;border-radius:2px}
+
+/* lightbox */
+.lb-wrap{position:fixed;inset:0;background:#000e;z-index:50;display:none;align-items:center;justify-content:center;flex-direction:column;gap:10px}
+.lb-wrap.on{display:flex}
+.lb-wrap img{max-width:94vw;max-height:84vh;object-fit:contain}
+.lb-wrap .cap{color:#ddd;font:13px var(--mono)}
+.lb-wrap .x{position:absolute;right:18px;top:12px;color:#fff;font-size:28px}
+.lb-wrap .ar{position:absolute;top:50%;transform:translateY(-50%);color:#fff;font-size:40px;padding:10px 18px;opacity:.7}
+.lb-wrap .ar:hover{opacity:1}.lb-wrap .l{left:6px}.lb-wrap .r{right:6px}
+
+/* mobile */
+.mpick{display:none}
+@media (max-width:860px){
+  .layout{display:block;height:auto}
+  .side{display:none}
+  .mpick{display:block;padding:10px 16px 0}
+  .mpick select{width:100%;padding:8px;font:inherit;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+  .inner{padding:12px 16px 60px}
+  .cmp{grid-template-columns:1fr}
+  .top{flex-wrap:wrap;gap:8px;padding:10px 16px}.top .search{max-width:none;flex-basis:100%;order:5}.help{display:none}
+  .bub{max-width:100%}
+}
+</style>
+</head>
+<body>
+<div class="top">
+  <h1>CoT roll 样例</h1>
+  <span class="stats" id="stats"></span>
+  <span id="extras"></span>
+  <div class="search"><input id="q" placeholder="搜索问题、GT、答案、推理…（按 / 聚焦）" autocomplete="off"></div>
+  <span class="help"><kbd>j</kbd>/<kbd>k</kbd> 切换 · <kbd>r</kbd> 推理 · <kbd>←</kbd><kbd>→</kbd> 帧</span>
+</div>
+<div class="mpick"><select id="msel"></select></div>
+<div class="layout">
+  <aside class="side">
+    <div class="filters">
+      <div class="fl">类型</div><div class="chips" id="fk"></div>
+      <div class="fl">状态</div><div class="chips" id="fs"></div>
+    </div>
+    <div class="list" id="list"></div>
+  </aside>
+  <main class="main" id="main"><div class="inner" id="view"></div></main>
+</div>
+<div class="lb-wrap" id="lb"><button class="x" id="lbx">×</button><button class="ar l" id="lbl">‹</button><img id="lbi" alt=""><div class="cap" id="lbc"></div><button class="ar r" id="lbr">›</button></div>
+<script>
+const DATA = /*__DATA__*/null;
+const S = DATA.samples;
+const KN = {img1:'单图', imgN:'多图', text:'纯文本', vshort:'短视频', vlong:'长视频'};
+const ST = {ok:'✅ 正常结束', trunc:'⚠️ 截断/空答', inonly:'⏳ 仅输入'};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+S.forEach(s => {
+  s.status = !s.has_output ? 'inonly' : (s.finish === 'stop' && s.answer ? 'ok' : 'trunc');
+  const us = s.messages.filter(m => m.role === 'user');
+  const last = us[us.length - 1];
+  s.question = last ? last.parts.filter(p => p.t === 'text').map(p => p.v).join(' ').trim() : '';
+  s.hay = [s.question, s.gt, s.answer, s.reasoning, s.id, s.dataset].join('\n').toLowerCase();
+});
+
+const state = {kinds: new Set(), stats: new Set(), q: '', cur: null, frame: 0, play: null, rsnOpen: false, histOpen: false};
+
+function fmtT(x){ if (x == null) return ''; x = +x; const m = Math.floor(x/60), s = x - m*60; return m ? `${m}:${s.toFixed(1).padStart(4,'0')}` : `${s.toFixed(1)}s`; }
+function short(p){ if (!p) return ''; const a = p.split('/').filter(Boolean); const i = a.indexOf('webdataset'); return (i > 1 ? a.slice(Math.max(0,i-2), i) : a.slice(-2)).join('/'); }
+function hl(text){
+  let h = esc(text);
+  if (state.q) { const re = new RegExp(state.q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'), 'gi'); h = h.replace(re, m => `<mark>${m}</mark>`); }
+  h = h.replace(/\*\*([^*\n]{1,200})\*\*/g, '<b>$1</b>');
+  return h;
+}
+function refs(html, s){
+  if (!s.images.length) return html;
+  return html.replace(/\b(frame|image|img|图|第)\s*#?\s*(\d{1,3})\b/gi, (m, w, n) => +n >= 1 && +n <= s.images.length ? `<span class="ref" data-f="${+n-1}">${m}</span>` : m);
+}
+function visible(){
+  return S.filter(s => (!state.kinds.size || state.kinds.has(s.kind)) && (!state.stats.size || state.stats.has(s.status)) && (!state.q || s.hay.includes(state.q.toLowerCase())));
+}
+
+function renderFilters(){
+  const kc = {}, sc = {};
+  S.forEach(s => { kc[s.kind] = (kc[s.kind]||0) + 1; sc[s.status] = (sc[s.status]||0) + 1; });
+  $('#fk').innerHTML = Object.keys(KN).filter(k => kc[k]).map(k => `<button class="chip ${state.kinds.has(k)?'on':''}" data-k="${k}">${KN[k]}<span class="c">${kc[k]}</span></button>`).join('');
+  $('#fs').innerHTML = Object.keys(ST).filter(k => sc[k]).map(k => `<button class="chip ${state.stats.has(k)?'on':''}" data-s="${k}">${ST[k]}<span class="c">${sc[k]}</span></button>`).join('');
+  $('#stats').textContent = `${S.length} 条 · ` + Object.keys(KN).filter(k => kc[k]).map(k => `${KN[k]} ${kc[k]}`).join(' / ');
+}
+function renderList(){
+  const v = visible();
+  $('#list').innerHTML = v.length ? v.map(s => `<button class="item ${s.key===state.cur?'cur':''}" data-key="${s.key}">
+      <div class="row"><span class="dot ${s.status}"></span><span class="kb k-${s.kind}">${KN[s.kind]}</span><span>#${s.nn}</span>
+      <span style="margin-left:auto">${s.images.length ? s.images.length + ' 图' : ''}</span></div>
+      <div class="q">${esc(s.question || '(无文本问题)')}</div></button>`).join('') : '<div class="empty">没有匹配的样例</div>';
+  $('#msel').innerHTML = v.map(s => `<option value="${s.key}" ${s.key===state.cur?'selected':''}>${KN[s.kind]} #${s.nn} · ${esc(s.question.slice(0,40))}</option>`).join('');
+  const c = $('#list .cur'); if (c) c.scrollIntoView({block:'nearest'});
+}
+
+function mediaHTML(s){
+  if (!s.images.length) return '';
+  const isVid = s.frame_ts && s.frame_ts.length === s.images.length && s.images.length > 1;
+  if (isVid) {
+    return `<div class="card"><div class="ch">视频帧 · ${s.images.length} 帧${s.duration_s ? ` · 时长 ${fmtT(s.duration_s)}` : ''}${s.fps ? ` · 原始 ${(+s.fps).toFixed(1)} fps` : ''}<span class="sp"></span><span style="font-weight:400">←/→ 逐帧 · 空格播放</span></div><div class="cb viewer">
+      <div class="stage"><img id="fimg" alt=""><span class="ov" id="fov"></span></div>
+      <div class="ctl"><button id="play">▶ 播放</button><input type="range" id="fr" min="0" max="${s.images.length-1}" value="0"><span class="t" id="ft"></span></div>
+      <div class="strip" id="strip">${s.images.map((u,i) => `<img loading="lazy" data-f="${i}" src="${s.base}/${esc(u)}" title="帧 ${i+1} · ${fmtT(s.frame_ts[i])}">`).join('')}</div>
+    </div></div>`;
+  }
+  return `<div class="card"><div class="ch">${s.images.length === 1 ? '图像' : `图像 · ${s.images.length} 张`}<span class="sp"></span><span style="font-weight:400">点击放大</span></div><div class="cb"><div class="grid ${s.images.length===1?'one':''}">
+    ${s.images.map((u,i) => `<div class="thumb"><img loading="lazy" data-f="${i}" src="${s.base}/${esc(u)}" alt=""><span class="n">${s.images.length>1 ? 'img '+(i+1) : esc(u)}</span></div>`).join('')}
+  </div></div></div>`;
+}
+function bubble(m, s, focus){
+  let imgN = 0;
+  const body = m.parts.map(p => {
+    if (p.t === 'img') { const i = s.images.indexOf(p.v); imgN++; return `<span class="ichip" data-f="${i}">${s.frame_ts.length===s.images.length && s.images.length>1 ? '🎞 帧'+(i+1) : '🖼 img '+(i+1)}</span>`; }
+    return refs(hl(p.v), s);
+  });
+  // collapse long runs of frame chips
+  let html = body.join('');
+  if (imgN > 6) html = `<span class="ichip" data-f="0">🎞 ${imgN} 帧（见上方视频）</span>\n` + m.parts.filter(p => p.t==='text').map(p => refs(hl(p.v), s)).join('');
+  return `<div class="bub ${m.role} ${focus?'focus':''}"><span class="who">${focus ? '本条评估的问题' : (m.role==='user'?'用户':'助手（历史 GT）')}</span>${html}</div>`;
+}
+function convHTML(s){
+  const msgs = s.messages;
+  const lastU = msgs.map(m => m.role).lastIndexOf('user');
+  const hist = msgs.slice(0, lastU), fin = msgs[lastU];
+  let h = '';
+  if (hist.length) {
+    const nT = Math.ceil(hist.length / 2);
+    if (state.histOpen) h += `<div class="hist">${hist.map(m => bubble(m, s, false)).join('')}</div><button class="more" id="hist">收起前 ${nT} 轮</button>`;
+    else h += `<button class="more" id="hist">▸ 展开前 ${nT} 轮对话历史（模型能看到，含 GT 回答）</button>`;
+  }
+  if (fin) h += bubble(fin, s, true);
+  return `<div class="card"><div class="ch">对话<span class="sp"></span><span style="font-weight:400">第 ${s.turn+1} / ${s.n_turns} 轮</span></div><div class="cb">${h}</div></div>`;
+}
+function matchTag(s){
+  if (!s.has_output || !s.answer || !s.gt) return '';
+  const n = x => String(x).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const g = n(s.gt), a = n(s.answer);
+  if (!g || g.length > 25) return '';
+  if (a === g) return '<span class="tag ok">与 GT 一致</span>';
+  if ((' ' + a + ' ').includes(' ' + g + ' ')) return '<span class="tag ok">答案包含 GT</span>';
+  return '<span class="tag warn">未包含 GT 原文</span>';
+}
+function cmpHTML(s){
+  const gt = `<div class="ans gt"><div class="lb"><span>Ground truth · 训练数据原答案</span><span>${(s.gt||'').length} 字符</span></div>${s.gt != null ? hl(s.gt) : '<span class="none">（无）</span>'}</div>`;
+  const te = s.has_output
+    ? `<div class="ans te"><div class="lb"><span>Teacher 答案 · ${esc(s.model||'')}</span><span>${(s.answer||'').length} 字符</span></div>${s.answer ? refs(hl(s.answer), s) : '<span class="none">（空：推理到达长度上限被截断，没有给出答案）</span>'}</div>`
+    : `<div class="ans te"><div class="lb"><span>Teacher 答案</span></div><span class="none">（导出时这类还没有输出，只有输入）</span></div>`;
+  return `<div class="card"><div class="ch">GT vs Teacher<span class="sp"></span>${matchTag(s)}</div><div class="cb cmp">${gt}${te}</div></div>`;
+}
+function rsnHTML(s){
+  if (!s.has_output) return '';
+  const r = s.reasoning || '';
+  const hits = state.q ? (r.toLowerCase().split(state.q.toLowerCase()).length - 1) : 0;
+  return `<div class="card"><div class="ch">Teacher 推理 · ${r.length.toLocaleString()} 字符${hits ? ` · <mark>${hits} 处匹配</mark>` : ''}<span class="sp"></span>
+    ${state.rsnOpen ? '<button class="lbtn" id="rtop">回到开头</button><button class="lbtn" id="rend">跳到结尾</button>' : ''}
+    <button class="lbtn" id="rtog">${state.rsnOpen ? '收起' : '展开全文'} <kbd>r</kbd></button></div>
+    <div class="cb"><div class="rsn ${state.rsnOpen?'':'closed'}" id="rsn">${refs(hl(r), s) || '<i>（无）</i>'}</div></div></div>`;
+}
+function renderView(){
+  const s = S.find(x => x.key === state.cur);
+  if (!s) { $('#view').innerHTML = '<div class="empty">选择左侧样例</div>'; return; }
+  stopPlay();
+  const v = visible(), i = v.findIndex(x => x.key === s.key);
+  const tags = [
+    `<span class="kb k-${s.kind}">${KN[s.kind]}</span>`,
+    s.status === 'ok' ? '<span class="tag ok">finish = stop</span>' : s.status === 'trunc' ? `<span class="tag warn">finish = ${esc(s.finish)}${s.answer ? '' : ' · 空答案'}</span>` : '<span class="tag">仅输入</span>',
+    `<span class="tag" title="${esc(s.dataset)}">📁 ${esc(short(s.dataset))}</span>`,
+    `<span class="tag">第 ${s.turn+1}/${s.n_turns} 轮</span>`,
+    s.images.length ? `<span class="tag">${s.images.length} 图/帧</span>` : '',
+    s.duration_s ? `<span class="tag">⏱ 视频 ${fmtT(s.duration_s)}</span>` : '',
+    s.usage && s.usage.prompt_tokens ? `<span class="tag">tokens 输入 ${s.usage.prompt_tokens.toLocaleString()} / 输出 ${(s.usage.completion_tokens||0).toLocaleString()}</span>` : (s.est_prompt_tokens ? `<span class="tag">≈ ${s.est_prompt_tokens.toLocaleString()} 输入 tokens</span>` : ''),
+    s.latency_s != null ? `<span class="tag">${Math.round(s.latency_s)} s</span>` : '',
+    s.placement_fallback ? '<span class="tag info">placement fallback</span>' : '',
+  ].join('');
+  $('#view').innerHTML = `
+    <div class="head"><h2>${hl(s.question || '(无文本问题)')}</h2>
+      <div class="nav"><button id="prev" ${i<=0?'disabled':''}>‹ 上一条</button><button id="next" ${i<0||i>=v.length-1?'disabled':''}>下一条 ›</button></div></div>
+    <div class="meta">${tags}</div>
+    <div class="sid">${esc(s.id)} · <a href="${s.base}/sample.md" target="_blank">sample.md</a> · <a href="${s.base}/input.json" target="_blank">input.json</a>${s.has_output ? ` · <a href="${s.base}/output.json" target="_blank">output.json</a>` : ''}</div>
+    ${mediaHTML(s)}${convHTML(s)}${cmpHTML(s)}${rsnHTML(s)}`;
+  state.frame = 0; setFrame(0);
+  $('#main').scrollTop = 0;
+}
+
+function setFrame(i){
+  const s = S.find(x => x.key === state.cur); if (!s || !$('#fimg')) return;
+  i = Math.max(0, Math.min(s.images.length - 1, i)); state.frame = i;
+  $('#fimg').src = `${s.base}/${s.images[i]}`;
+  $('#fov').textContent = `帧 ${i+1}/${s.images.length} · ${fmtT(s.frame_ts[i])}`;
+  $('#fr').value = i; $('#ft').textContent = `${fmtT(s.frame_ts[i])} / ${fmtT(s.duration_s)}`;
+  document.querySelectorAll('#strip img').forEach((im, k) => im.classList.toggle('cur', k === i));
+  const c = document.querySelector('#strip img.cur'); if (c) c.scrollIntoView({block:'nearest', inline:'center'});
+}
+function stopPlay(){ if (state.play) { clearInterval(state.play); state.play = null; const b = $('#play'); if (b) b.textContent = '▶ 播放'; } }
+function togglePlay(){
+  const s = S.find(x => x.key === state.cur); if (!s || !$('#fimg')) return;
+  if (state.play) return stopPlay();
+  $('#play').textContent = '⏸ 暂停';
+  state.play = setInterval(() => { if (state.frame >= s.images.length - 1) return stopPlay(); setFrame(state.frame + 1); }, 400);
+}
+function gotoFrame(i){
+  if ($('#fimg')) { setFrame(i); $('#fimg').closest('.card').scrollIntoView({behavior:'smooth', block:'start'}); }
+  else openLB(i);
+}
+let lbI = 0;
+function openLB(i){
+  const s = S.find(x => x.key === state.cur); if (!s || !s.images.length) return;
+  lbI = Math.max(0, Math.min(s.images.length - 1, i));
+  $('#lbi').src = `${s.base}/${s.images[lbI]}`;
+  $('#lbc').textContent = `${lbI+1} / ${s.images.length}` + (s.frame_ts.length === s.images.length && s.images.length > 1 ? ` · ${fmtT(s.frame_ts[lbI])}` : '');
+  $('#lb').classList.add('on');
+}
+function closeLB(){ $('#lb').classList.remove('on'); }
+
+function select(key, push = true){
+  state.cur = key; state.rsnOpen = false; state.histOpen = false;
+  if (push) history.replaceState(null, '', '#' + key);
+  renderList(); renderView();
+}
+function step(d){
+  const v = visible(); if (!v.length) return;
+  let i = v.findIndex(x => x.key === state.cur);
+  i = i < 0 ? 0 : Math.max(0, Math.min(v.length - 1, i + d));
+  select(v[i].key);
+}
+
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-k],[data-s],[data-key],[data-f],#prev,#next,#rtog,#rtop,#rend,#hist,#play,.thumb img,.stage img,#lbx,#lbl,#lbr');
+  if (!t) { if (e.target.id === 'lb') closeLB(); return; }
+  if (t.dataset.k) { state.kinds.has(t.dataset.k) ? state.kinds.delete(t.dataset.k) : state.kinds.add(t.dataset.k); renderFilters(); renderList(); return; }
+  if (t.dataset.s) { state.stats.has(t.dataset.s) ? state.stats.delete(t.dataset.s) : state.stats.add(t.dataset.s); renderFilters(); renderList(); return; }
+  if (t.dataset.key) return select(t.dataset.key);
+  if (t.id === 'prev') return step(-1);
+  if (t.id === 'next') return step(1);
+  if (t.id === 'rtog') { state.rsnOpen = !state.rsnOpen; const y = $('#main').scrollTop; renderView(); $('#main').scrollTop = y; return; }
+  if (t.id === 'rtop') { $('#rsn').scrollTop = 0; return; }
+  if (t.id === 'rend') { $('#rsn').scrollTop = $('#rsn').scrollHeight; return; }
+  if (t.id === 'hist') { state.histOpen = !state.histOpen; const y = $('#main').scrollTop; renderView(); $('#main').scrollTop = y; return; }
+  if (t.id === 'play') return togglePlay();
+  if (t.id === 'lbx') return closeLB();
+  if (t.id === 'lbl') return openLB(lbI - 1);
+  if (t.id === 'lbr') return openLB(lbI + 1);
+  if (t.matches('.stage img')) return openLB(state.frame);
+  if (t.matches('.thumb img')) return openLB(+t.dataset.f);
+  if (t.dataset.f != null) { const f = +t.dataset.f; if (t.closest('#strip')) return setFrame(f); return gotoFrame(f); }
+});
+document.addEventListener('input', e => {
+  if (e.target.id === 'fr') { stopPlay(); setFrame(+e.target.value); }
+  if (e.target.id === 'q') { state.q = e.target.value.trim(); renderList(); const v = visible(); if (v.length && !v.some(x => x.key === state.cur)) select(v[0].key); else renderView(); }
+});
+$('#msel').addEventListener('change', e => select(e.target.value));
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') { if (e.key === 'Escape') e.target.blur(); return; }
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  const lb = $('#lb').classList.contains('on');
+  if (e.key === 'Escape' && lb) return closeLB();
+  if (e.key === 'ArrowLeft') { e.preventDefault(); return lb ? openLB(lbI - 1) : $('#fimg') ? (stopPlay(), setFrame(state.frame - 1)) : null; }
+  if (e.key === 'ArrowRight') { e.preventDefault(); return lb ? openLB(lbI + 1) : $('#fimg') ? (stopPlay(), setFrame(state.frame + 1)) : null; }
+  if (e.key === 'j') return step(1);
+  if (e.key === 'k') return step(-1);
+  if (e.key === 'r') { state.rsnOpen = !state.rsnOpen; const y = $('#main').scrollTop; renderView(); $('#main').scrollTop = y; return; }
+  if (e.key === ' ' && $('#fimg')) { e.preventDefault(); return togglePlay(); }
+  if (e.key === '/') { e.preventDefault(); $('#q').focus(); }
+});
+window.addEventListener('hashchange', () => { const k = location.hash.slice(1); if (k && k !== state.cur && S.some(s => s.key === k)) select(k, false); });
+
+$('#extras').innerHTML = (DATA.extras||[]).map(x => `<a href="${x.href}" target="_blank">${esc(x.label)} ↗</a>`).join(' ');
+renderFilters();
+const h0 = location.hash.slice(1);
+select(S.some(s => s.key === h0) ? h0 : (S[0] && S[0].key), false);
+</script>
+</body>
+</html>
