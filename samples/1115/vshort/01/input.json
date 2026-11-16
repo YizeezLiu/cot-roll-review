@@ -1,0 +1,516 @@
+{
+ "id": "s3/parts__part051__lengths-0da9ac/ps_00002153/s9/t0",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "<0.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<1.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<3.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_02.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<4.6 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_03.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<6.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_04.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<7.6 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_05.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<9.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_06.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<10.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_07.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<12.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_08.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<13.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_09.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<15.3 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_10.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<16.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_11.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<18.4 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_12.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<19.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_13.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<21.4 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_14.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<22.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_15.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<24.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_16.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<26.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_17.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<27.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_18.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<29.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_19.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<30.6 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_20.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<32.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_21.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<33.6 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_22.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<35.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_23.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<36.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_24.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<38.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_25.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<39.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_26.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<41.3 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_27.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<42.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_28.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<44.3 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_29.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<45.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_30.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<47.4 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_31.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "What pattern is on the first piece of wallpaper the man applies?"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "vshort",
+  "group": "/datasets/data_model_0923/yunyaoyan/dataset_codec/llava_video_full_adaptive_pwindow_v1_20260916/packing64k",
+  "dataset": "/datasets/data_model_0923/yunyaoyan/dataset_codec/llava_video_full_adaptive_pwindow_v1_20260916/packing64k/parts/part051/lengths/webdataset",
+  "bin": "ps_00002153",
+  "sub": 9,
+  "turn": 0,
+  "n_turns": 5,
+  "n_images": 32,
+  "image_sizes": [
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ],
+   [
+    432,
+    288
+   ]
+  ],
+  "gt": "A colorful fruit pattern featuring apples, grapes, and pears",
+  "question": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nWhat pattern is on the first piece of wallpaper the man applies?",
+  "placement_fallback": false,
+  "est_prompt_tokens": 6344,
+  "frame_ts": [
+   0.0,
+   1.501,
+   3.036,
+   4.571,
+   6.106,
+   7.641,
+   9.176,
+   10.677,
+   12.212,
+   13.747,
+   15.282,
+   16.817,
+   18.352,
+   19.853,
+   21.388,
+   22.923,
+   24.458,
+   25.993,
+   27.527,
+   29.029,
+   30.564,
+   32.099,
+   33.634,
+   35.168,
+   36.703,
+   38.205,
+   39.74,
+   41.275,
+   42.809,
+   44.344,
+   45.879,
+   47.381
+  ],
+  "duration_s": 47.38,
+  "fps": 29.97007092780124,
+  "n_frames_total": 32
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "s3/data_model_0920__ov21sft_56m_packed_L64k_v2__part08-a4cb7e/ps_00042421/s45/t1",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_02.jpg"
+     }
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_03.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "Describe image number two concisely."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "A sleek silver bracelet with a smooth rectangular centerpiece and intricate chain links."
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "Write a terse but informative summary of the fourth picture."
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "imgN",
+  "group": "/datasets/data_model_0920/ov21sft_56m_packed_L64k_v2",
+  "dataset": "/datasets/data_model_0920/ov21sft_56m_packed_L64k_v2/part08/webdataset",
+  "bin": "ps_00042421",
+  "sub": 45,
+  "turn": 1,
+  "n_turns": 4,
+  "n_images": 4,
+  "image_sizes": [
+   [
+    455,
+    256
+   ],
+   [
+    225,
+    225
+   ],
+   [
+    320,
+    180
+   ],
+   [
+    300,
+    250
+   ]
+  ],
+  "gt": "A person wearing a red hoodie stands in front of a stage setup.",
+  "question": "Write a terse but informative summary of the fourth picture.",
+  "placement_fallback": false,
+  "est_prompt_tokens": 839
+ }
+}

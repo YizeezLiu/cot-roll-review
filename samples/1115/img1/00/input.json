@@ -1,0 +1,41 @@
+{
+ "id": "s3/data_model_0920__ov21sft_56m_packed_L64k_v2__part03-366f70/ps_00029385/s26/t0",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": " What is inside the bounding box with coordinates [932, 508, 952, 562]? All coordinate values are integers in the range 0-1000."
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "img1",
+  "group": "/datasets/data_model_0920/ov21sft_56m_packed_L64k_v2",
+  "dataset": "/datasets/data_model_0920/ov21sft_56m_packed_L64k_v2/part03/webdataset",
+  "bin": "ps_00029385",
+  "sub": 26,
+  "turn": 0,
+  "n_turns": 2,
+  "n_images": 1,
+  "image_sizes": [
+   [
+    1024,
+    768
+   ]
+  ],
+  "gt": "a person",
+  "question": "<image> What is inside the bounding box with coordinates [932, 508, 952, 562]? All coordinate values are integers in the range 0-1000.",
+  "placement_fallback": false,
+  "est_prompt_tokens": 542
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "s3/data_model_0923__robobrain_dist_tracer_packed_64k__robobrain_part6-64901b/ps_00001343/s43/t1",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "You are a robot using the end effector control. The task is \"Pick up the green corn snacks from the replenishment box with the right arm and place the held green corn snacks on the shelf at the position with green corn snacks using the right arm.\". Please predict up to 10 3D end-effector-centric key trajectory points to complete the task. Your answer should be formatted as a list of tuples, i.e., [(x1, y1, d1), (x2, y2, d2), ...], where each tuple contains the x and y coordinates and the depth of the point."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "[(596, 653, 0.295), (635, 651, 0.414), (747, 872, 0.525), (737, 926, 0.591), (752, 851, 0.508), (593, 700, 0.464), (526, 378, 0.533), (512, 356, 0.673)]"
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "Point the 2D end-effector-centric visual trace for the task \"Pick up the green corn snacks from the replenishment box with the right arm and place the held green corn snacks on the shelf at the position with green corn snacks using the right arm.\" with the right arm. Your answer should be formatted as a list of tuples, i.e., [(x1, y1), (x2, y2), ...], where each tuple contains the x and y coordinates of a point."
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "img1",
+  "group": "/datasets/data_model_0923/robobrain_dist_tracer_packed_64k",
+  "dataset": "/datasets/data_model_0923/robobrain_dist_tracer_packed_64k/robobrain_part6/webdataset",
+  "bin": "ps_00001343",
+  "sub": 43,
+  "turn": 1,
+  "n_turns": 3,
+  "n_images": 1,
+  "image_sizes": [
+   [
+    640,
+    480
+   ]
+  ],
+  "gt": "[(596, 653), (635, 651), (747, 872), (737, 926), (752, 851), (593, 700), (526, 378), (512, 356)]",
+  "question": "Point the 2D end-effector-centric visual trace for the task \"Pick up the green corn snacks from the replenishment box with the right arm and place the held green corn snacks on the shelf at the position with green corn snacks using the right arm.\" with the right arm. Your answer should be formatted as a list of tuples, i.e., [(x1, y1), (x2, y2), ...], where each tuple contains the x and y coordinates of a point.",
+  "placement_fallback": false,
+  "est_prompt_tokens": 569
+ }
+}

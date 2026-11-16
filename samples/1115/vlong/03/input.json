@@ -1,0 +1,996 @@
+{
+ "id": "s3/180s-part3-d7a5b1/ps_00008476/s2/t0",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "<0.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<2.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<6.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_02.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<9.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_03.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<11.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_04.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<14.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_05.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<16.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_06.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<20.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_07.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<23.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_08.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<26.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_09.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<28.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_10.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<31.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_11.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<34.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_12.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<37.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_13.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<40.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_14.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<43.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_15.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<46.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_16.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<49.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_17.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<51.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_18.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<54.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_19.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<57.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_20.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<60.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_21.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<63.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_22.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<66.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_23.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<69.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_24.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<71.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_25.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<74.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_26.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<77.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_27.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<80.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_28.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<83.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_29.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<86.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_30.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<89.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_31.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<91.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_32.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<94.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_33.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<97.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_34.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<100.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_35.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<103.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_36.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<106.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_37.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<109.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_38.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<111.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_39.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<114.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_40.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<117.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_41.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<120.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_42.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<123.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_43.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<126.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_44.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<129.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_45.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<131.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_46.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<134.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_47.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<137.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_48.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<140.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_49.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<143.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_50.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<146.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_51.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<149.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_52.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<151.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_53.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<154.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_54.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<157.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_55.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<160.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_56.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<163.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_57.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<166.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_58.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<169.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_59.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<171.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_60.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<174.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_61.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<177.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_62.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<180.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_63.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "Explain the video content. Use Markdown and include exactly these headings:\n0. Context and Environment\n1. Main Subject of the Video\n2. Actions and Interactions\n3. Motion Detail Description\n4. Background Changes\n5. Highlight Moments"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "vlong",
+  "group": "/datasets",
+  "dataset": "/datasets/180s-part3/webdataset",
+  "bin": "ps_00008476",
+  "sub": 2,
+  "turn": 0,
+  "n_turns": 1,
+  "n_images": 64,
+  "image_sizes": [
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ],
+   [
+    624,
+    384
+   ]
+  ],
+  "gt": "### 0. Context and Environment\nThe video is set in a small, cozy indoor kitchen during what appears to be daytime, indicated by bright, even lighting with no visible natural light sources suggesting artificial indoor illumination. The kitchen features dark countertop surfaces, light-colored upper cabinets, a light blue door in the background, and a fire extinguisher mounted on the wall behind the counter. On the counter, initial items include a large bottle of Mazola oil, a gallon jug of milk, and utensil holders with cooking tools. This intimate, lived-in kitchen setting creates a casual, instructional mood, fitting for a cooking demonstration. The space remains consistent throughout most of the video, with only small shifts in countertop items as the main subject works.\n\n### 1. Main Subject of the Video\nThe primary subject is a woman with long brown hair, wearing a light gray button-down shirt and dark jeans. She acts as an instructor, walking through steps to prepare a food mixture.\n\n### 2. Actions and Interactions\nThe woman performs a series of cooking-related actions: she organizes countertop items, retrieves kitchen tools including a box grater and a Hershey's chocolate bar, and mixes ingredients. She interacts with objects like the large mixing bowl, stirring its contents, and with containers like the oil jug and milk gallon, pouring their contents into the bowl. She also holds up items like the grater, chocolate bar, and mixing bowl to display them to the camera as part of her demonstration.\n\n### 3. Motion Detail Description\nThe video follows a clear sequence of deliberate, steady-paced actions:\n1.  **0-12 seconds**: She moves from the door to the counter, shifting the milk jug, oil bottle, and a small bowl across the counter from right to left with smooth, deliberate motions to clear space.\n2.  **12-20 seconds**: She brings a large mixing bowl to the counter center, placing it down and gesturing with her hands as she explains.\n3.  **20-32 seconds**: She retrieves a box grater, holds it up to show its different grating surfaces, then lifts the mixing bowl to display its empty interior to the camera before setting it back.\n4.  **46-55 seconds**: She reaches up to an upper cabinet, pulls out a Hershey's chocolate bar, and holds it close to the camera to show the label.\n5.  **72-90 seconds**: She picks up the oil jug, pours oil into the mixing bowl in a slow, controlled stream, then uses a spoon to scrape any remaining oil from the jug's lip into the bowl.\n6.  **90-102 seconds**: She unscrews the milk jug cap, pours milk into the bowl, then screws the cap back on and returns the jug to its original position.\n7.  **102-179 seconds**: She uses a spoon to stir the mixture in the bowl, first slowly, then increasing speed. She lifts the bowl slightly, tilting it and stirring vigorously to combine the ingredients, occasionally holding the bowl up to show the thickened mixture's consistency by lifting the spoon to let the mixture drip back in.\n\n### 4. Background Changes\nThe background remains largely static throughout the video. The only minor changes are the woman opening and closing the upper cabinet door when retrieving the chocolate bar (around 46-56 seconds) and adjusting the position of the milk jug and oil jug on the counter. The light blue door, fire extinguisher, and cabinetry stay in place without any significant shifts in the environment.\n\n### 5. Highlight Moments\n-   **Around 25 seconds**: The woman holds up the box grater, rotating it to clearly show its two distinct grating surfaces, one with small holes and one with larger slotted holes, to the camera as part of her tool demonstration.\n-   **Around 50 seconds**: She holds a Hershey's chocolate bar up close to the camera, ensuring the brand label is fully visible, signaling it as a key ingredient for the recipe.\n-   **Around 170-175 seconds**: She holds the mixing bowl up to the camera, lifts the spoon to show the thick, creamy mixture dripping slowly back into the bowl, demonstrating that the ingredients are fully combined and the mixture has reached the desired consistency.",
+  "question": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nExplain the video content. Use Markdown and include exactly these headings:\n0. Context and Environment\n1. Main Subject of the Video\n2. Actions and Interactions\n3. Motion Detail Description\n4. Background Changes\n5. Highlight Moments",
+  "placement_fallback": false,
+  "est_prompt_tokens": 13440,
+  "frame_ts": [
+   0.0,
+   2.949,
+   5.967,
+   8.985,
+   10.974,
+   13.992,
+   16.941,
+   19.959,
+   22.977,
+   25.995,
+   28.944,
+   31.001,
+   33.951,
+   36.968,
+   39.986,
+   43.004,
+   45.953,
+   48.971,
+   50.96,
+   53.978,
+   56.996,
+   60.014,
+   62.963,
+   65.981,
+   68.999,
+   70.988,
+   74.005,
+   76.955,
+   79.973,
+   82.99,
+   86.008,
+   88.957,
+   91.015,
+   93.964,
+   96.982,
+   100.0,
+   103.018,
+   105.967,
+   108.985,
+   110.974,
+   113.992,
+   117.01,
+   120.027,
+   122.977,
+   125.995,
+   129.012,
+   131.001,
+   134.019,
+   136.968,
+   139.986,
+   143.004,
+   146.022,
+   148.971,
+   151.029,
+   153.978,
+   156.996,
+   160.014,
+   163.032,
+   165.981,
+   168.999,
+   170.988,
+   174.005,
+   177.023,
+   180.041
+  ],
+  "duration_s": 180.04,
+  "fps": 14.58,
+  "n_frames_total": 181
+ }
+}

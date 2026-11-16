@@ -1,0 +1,996 @@
+{
+ "id": "s3/180s-part1-eekjeu-eea22f/ps_00015560/s2/t0",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "<0.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<3.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<5.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_02.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<9.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_03.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<11.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_04.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<14.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_05.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<17.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_06.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<20.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_07.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<22.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_08.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<26.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_09.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<28.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_10.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<31.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_11.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<34.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_12.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<37.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_13.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<40.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_14.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<43.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_15.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<45.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_16.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<49.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_17.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<51.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_18.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<54.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_19.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<57.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_20.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<60.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_21.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<62.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_22.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<66.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_23.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<68.9 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_24.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<71.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_25.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<74.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_26.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<77.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_27.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<80.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_28.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<83.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_29.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<86.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_30.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<89.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_31.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<91.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_32.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<94.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_33.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<97.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_34.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<100.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_35.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<103.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_36.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<106.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_37.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<109.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_38.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<111.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_39.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<114.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_40.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<117.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_41.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<120.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_42.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<123.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_43.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<126.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_44.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<129.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_45.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<131.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_46.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<134.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_47.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<137.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_48.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<140.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_49.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<143.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_50.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<146.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_51.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<149.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_52.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<151.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_53.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<154.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_54.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<157.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_55.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<160.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_56.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<163.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_57.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<166.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_58.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<169.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_59.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<171.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_60.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<174.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_61.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<177.1 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_62.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<180.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_63.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "Describe the video as a whole. Use Markdown and include exactly these headings:\n0. Context and Environment\n1. Main Subject of the Video\n2. Actions and Interactions\n3. Motion Detail Description\n4. Background Changes\n5. Highlight Moments"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "vlong",
+  "group": "/datasets",
+  "dataset": "/datasets/180s-part1-eekjeu/webdataset",
+  "bin": "ps_00015560",
+  "sub": 2,
+  "turn": 0,
+  "n_turns": 1,
+  "n_images": 64,
+  "image_sizes": [
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ],
+   [
+    576,
+    432
+   ]
+  ],
+  "gt": "### 0. Context and Environment\nThe video is set indoors, in a well-lit residential room during the daytime, indicated by bright, even natural-like lighting. Background elements include a white wall with a framed picture, a refrigerator, and a piece of exercise equipment, like a rowing machine, visible in the distance. The setting creates a casual, instructional mood, as the intimate home environment makes the demonstration feel approachable and focused on sharing practical knowledge.\n\n### 1. Main subject of the video\nThe main subject is a man wearing a dark cap with sunglasses perched on top, a dark hoodie, and a shirt with \"Nikon\" printed on it. He demonstrates the assembly, disassembly, and features of a camo-patterned fishing rod with an attached reel.\n\n### 2. Actions and Interactions\nThe man performs a series of instructional actions related to the fishing rod. First, he demonstrates inserting a rod section into the camo base, then secures and adjusts the reel attachment. He disassembles the rod to show its components, manipulates the reel's mechanisms, including turning its handle and pointing out its parts, and uses hand gestures to explain how the rod and reel function together. He interacts directly with the fishing rod and reel, using his hands to manipulate every part of the equipment for the demonstration.\n\n### 3. Motion Detail Description\n- **0-12 seconds**: The man holds a long rod section and moves it horizontally, inserting it into the camo rod base in a smooth, deliberate forward motion, then adjusts its position with small back-and-forth movements.\n- **12-38 seconds**: He removes the rod section, lifts the camo base with the reel attached, and rotates it clockwise and counterclockwise to display different angles, using his fingers to point at specific parts with quick, precise motions.\n- **38-70 seconds**: He disassembles the reel from the rod base, holding the base in one hand and manipulating the reel's release mechanism with the other, then reattaches the reel with a firm twisting motion to secure it.\n- **70-150 seconds**: He holds the rod upright, turning the reel's handle rapidly to show its spinning motion, then uses hand gestures, including pointing, pinching, and open-palm movements, to explain functionality, with motions that are slow and clear for instructional purposes.\n- **150-180 seconds**: He repositions the rod, points to the reel's adjustment knobs, and twists them clockwise and counterclockwise to demonstrate tuning, then gives the reel handle a final series of quick turns to show its smooth operation.\n\n### 4. Background Changes\nThe background remains largely static throughout the video. The only minor change occurs when the man shifts his position slightly around the 130-second mark, causing the exercise equipment in the background to become more visible, but no significant environmental or decorative changes take place.\n\n### 5. Highlight Moments\n- **At approximately 10 seconds**: The man fully inserts the rod section into the camo base, completing the initial assembly step with a firm, deliberate push.\n- **At approximately 35 seconds**: He detaches the reel from the rod base, clearly showing the connection point and release mechanism to the camera.\n- **At approximately 75 seconds**: He spins the reel handle rapidly, demonstrating the smooth, fast rotation of the reel's internal components.\n- **At approximately 165 seconds**: He adjusts the reel's tuning knobs, turning them slowly and pointing to the changes, highlighting how to fine-tune the equipment's performance.",
+  "question": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nDescribe the video as a whole. Use Markdown and include exactly these headings:\n0. Context and Environment\n1. Main Subject of the Video\n2. Actions and Interactions\n3. Motion Detail Description\n4. Background Changes\n5. Highlight Moments",
+  "placement_fallback": false,
+  "est_prompt_tokens": 13057,
+  "frame_ts": [
+   0.0,
+   2.957,
+   5.915,
+   8.965,
+   10.998,
+   13.956,
+   17.006,
+   19.963,
+   22.921,
+   25.97,
+   28.928,
+   30.961,
+   34.011,
+   36.969,
+   40.018,
+   42.976,
+   45.933,
+   48.983,
+   51.017,
+   53.974,
+   57.024,
+   59.982,
+   62.939,
+   65.989,
+   68.946,
+   70.98,
+   74.03,
+   76.987,
+   80.037,
+   82.994,
+   85.952,
+   89.002,
+   91.035,
+   93.993,
+   97.043,
+   100.0,
+   102.957,
+   106.007,
+   108.965,
+   110.998,
+   114.048,
+   117.006,
+   120.055,
+   123.013,
+   125.97,
+   129.02,
+   131.054,
+   134.011,
+   137.061,
+   140.018,
+   142.976,
+   146.026,
+   148.983,
+   151.017,
+   154.067,
+   157.024,
+   160.074,
+   163.031,
+   165.989,
+   169.039,
+   171.072,
+   174.03,
+   177.079,
+   180.037
+  ],
+  "duration_s": 180.04,
+  "fps": 10.82,
+  "n_frames_total": 181
+ }
+}

@@ -1,0 +1,996 @@
+{
+ "id": "s3/180s-part2-7b61dt-fd4319/ps_00001387/s1/t0",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "<0.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<3.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<6.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_02.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<9.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_03.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<11.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_04.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<14.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_05.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<17.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_06.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<20.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_07.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<23.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_08.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<26.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_09.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<29.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_10.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<31.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_11.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<34.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_12.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<37.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_13.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<40.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_14.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<43.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_15.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<46.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_16.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<49.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_17.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<51.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_18.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<54.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_19.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<57.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_20.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<60.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_21.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<63.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_22.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<66.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_23.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<69.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_24.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<71.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_25.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<74.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_26.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<77.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_27.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<80.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_28.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<83.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_29.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<86.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_30.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<89.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_31.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<91.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_32.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<94.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_33.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<97.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_34.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<100.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_35.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<103.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_36.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<106.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_37.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<109.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_38.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<111.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_39.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<114.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_40.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<117.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_41.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<120.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_42.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<123.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_43.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<126.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_44.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<129.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_45.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<131.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_46.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<134.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_47.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<137.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_48.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<140.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_49.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<143.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_50.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<146.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_51.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<149.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_52.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<151.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_53.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<154.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_54.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<157.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_55.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<160.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_56.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<163.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_57.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<166.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_58.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<169.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_59.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<171.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_60.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<174.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_61.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<177.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_62.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<180.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_63.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "Summarize the video content. Please output in Markdown. Use the following headings:\n0. Context and Environment\n1. Main Subject of the Video\n2. Actions and Interactions\n3. Motion Detail Description\n4. Background Changes\n5. Highlight Moments"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "vlong",
+  "group": "/datasets",
+  "dataset": "/datasets/180s-part2-7b61dt/webdataset",
+  "bin": "ps_00001387",
+  "sub": 1,
+  "turn": 0,
+  "n_turns": 1,
+  "n_images": 64,
+  "image_sizes": [
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ],
+   [
+    672,
+    384
+   ]
+  ],
+  "gt": "### 0. Context and Environment\nThe video is set entirely indoors, in a dimly lit, cozy room that appears to be a small office or lounge. The room features a large flat-screen TV placed on a dark entertainment stand, with a potted plant and a white box on the left side of the stand, and a tall floor lamp with a warm yellow shade visible in the background. The overall mood is calm and functional, focused on demonstrating a video call and TV interface system; the low, warm lighting creates an intimate, non-distracting space for the technology demo.\n\n### 1. Main subject of the video\nThe primary subjects are three people demonstrated through the TV interface: a woman in a bright red blazer, and two men, one in a dark blazer and light blue shirt, the other in a light beige suit. Later, in the physical room, a man in a dark blazer with a name tag sitting on a brown couch with a green throw, and a woman in a black cardigan over a striped shirt standing nearby, appear as part of the in-person demo group.\n\n### 2. Actions and Interactions\n- **Video Call Interaction**: The woman in the red blazer and the two men engage in a video call. The man in the dark blazer uses a remote control to adjust the TV’s camera settings, while the woman in the red blazer speaks to the call participants, using hand gestures to emphasize her points.\n- **TV Navigation**: The woman in the red blazer uses a remote to navigate the TV’s interface, closing the video call and returning to a home screen. Later, the man in the dark blazer in the physical room uses a remote to access the TV’s contact list and initiate a call to the woman in the red blazer.\n- **In-Person Interaction**: The man on the couch talks to others in the room, gesturing with the remote, while the standing woman listens and observes the TV demonstration.\n\n### 3. Motion Detail Description\n- **0-2 seconds**: The man in the dark blazer holds a remote, pressing buttons to adjust the camera; his hand moves slightly up and down as he navigates the on-screen menu.\n- **2-28 seconds**: The screen cuts to the woman in the red blazer, who sits upright, gesturing with her right hand while speaking. Her left hand rests on the couch arm, and she occasionally shifts her posture slightly.\n- **28-42 seconds**: The video cuts back to the two men; the man in the dark blazer gestures with his free hand while talking, moving it left to right and up and down to emphasize his point, while still holding the remote in his other hand.\n- **42-67 seconds**: The screen returns to the woman in the red blazer, who continues speaking, now using both hands to gesture, before reaching for a remote and pressing a button.\n- **67-117 seconds**: The TV screen shifts to a snowy mountain landscape screensaver, with the camera slowly panning left across the peaks and forest below, moving at a steady, slow speed.\n- **117-130 seconds**: The camera moves from the TV to the man on the couch, who speaks and gestures with the remote, then pans to show the standing woman.\n- **130-179 seconds**: The camera returns to the TV, where the man uses the remote to open the contact list, select the woman in the red blazer, and initiate a call; the on-screen interface animates as the call connects, showing a \"calling\" status.\n\n### 4. Background Changes\n- **0-2 seconds**: The TV shows a beige couch with a green throw, a light blue abstract painting on the wall behind the two men.\n- **2-28 seconds**: The TV cuts to a different room, showing a brown leather couch, a staircase with wooden railings, and a potted plant in the background behind the woman in the red blazer.\n- **28-42 seconds**: The TV switches back to the original room with the two men on the beige couch.\n- **42-67 seconds**: The TV returns to the woman’s room with the leather couch and staircase.\n- **67-117 seconds**: The TV screen changes to a screensaver of a snowy mountain range with a pine forest below; the camera slowly pans left across the landscape, then zooms out to show the full mountain and sky.\n- **117-130 seconds**: The camera shifts from the TV to the physical room, showing the brown couch, green throw, floor lamp, and standing woman.\n- **130-142 seconds**: The TV returns to the mountain screensaver, then the interface opens a contact list overlay on the mountain background.\n- **142-179 seconds**: The TV background changes to a sunset lake scene with purple and orange skies, as the call to the woman in the red blazer is initiated and the \"calling\" screen appears.\n\n### 5. Highlight Moments\n- **At approximately 2 seconds**: The TV screen switches from the two men to the woman in the red blazer, launching the video call and displaying a small picture-in-picture window of the two men.\n- **At approximately 67 seconds**: The woman in the red blazer presses a remote button, closing the video call and transitioning the TV to a snowy mountain screensaver.\n- **At approximately 140 seconds**: The man in the dark blazer selects the woman in the red blazer from the TV’s contact list, initiating a video call that displays a \"calling\" status overlay on the sunset lake background.\n- **At approximately 117 seconds**: The camera pulls back from the TV to reveal the physical room, showing the man on the couch and the standing woman, connecting the on-screen demo to the in-person setting.",
+  "question": "<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\n<image>\nSummarize the video content. Please output in Markdown. Use the following headings:\n0. Context and Environment\n1. Main Subject of the Video\n2. Actions and Interactions\n3. Motion Detail Description\n4. Background Changes\n5. Highlight Moments",
+  "placement_fallback": false,
+  "est_prompt_tokens": 12930,
+  "frame_ts": [
+   0.0,
+   2.991,
+   5.982,
+   8.973,
+   10.979,
+   13.97,
+   16.995,
+   19.986,
+   22.978,
+   25.969,
+   28.994,
+   30.999,
+   33.99,
+   36.982,
+   39.973,
+   42.998,
+   45.989,
+   48.98,
+   50.986,
+   53.977,
+   57.002,
+   59.993,
+   62.984,
+   65.976,
+   69.001,
+   71.006,
+   73.997,
+   76.988,
+   79.98,
+   83.005,
+   85.996,
+   88.987,
+   90.993,
+   93.984,
+   97.009,
+   100.0,
+   102.991,
+   105.982,
+   109.007,
+   110.979,
+   114.004,
+   116.995,
+   119.986,
+   123.012,
+   126.003,
+   128.994,
+   130.999,
+   133.99,
+   136.982,
+   140.007,
+   142.998,
+   145.989,
+   149.014,
+   150.986,
+   154.011,
+   157.002,
+   159.993,
+   162.984,
+   166.01,
+   169.001,
+   171.006,
+   173.997,
+   176.988,
+   180.014
+  ],
+  "duration_s": 180.01,
+  "fps": 29.42,
+  "n_frames_total": 181
+ }
+}

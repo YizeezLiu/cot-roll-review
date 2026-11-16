@@ -1,0 +1,524 @@
+{
+ "id": "s3/dataset__shortmix_3sets_packed_64k__part3-302b06/ps_00000645/s4/t1",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "<0.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<1.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<3.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_02.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<4.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_03.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<6.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_04.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<8.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_05.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<9.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_06.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<11.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_07.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<13.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_08.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<14.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_09.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<16.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_10.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<18.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_11.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<19.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_12.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<21.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_13.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<23.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_14.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<24.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_15.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<26.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_16.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<28.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_17.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<29.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_18.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<31.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_19.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<33.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_20.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<34.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_21.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<36.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_22.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<38.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_23.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<39.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_24.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<41.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_25.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<43.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_26.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<44.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_27.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<46.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_28.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<48.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_29.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<49.8 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_30.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<51.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_31.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "How is the touchdown scored in the featured play?"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "A deep pass is caught and run into the end zone."
+  },
+  {
+   "role": "user",
+   "content": "What colors are worn by the team that scores the touchdown?"
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "vshort",
+  "group": "/datasets/feilong-stage3-datasets/dataset/shortmix_3sets_packed_64k",
+  "dataset": "/datasets/feilong-stage3-datasets/dataset/shortmix_3sets_packed_64k/part3/webdataset",
+  "bin": "ps_00000645",
+  "sub": 4,
+  "turn": 1,
+  "n_turns": 5,
+  "n_images": 32,
+  "image_sizes": [
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ]
+  ],
+  "gt": "White jerseys with red and blue accents.",
+  "question": "What colors are worn by the team that scores the touchdown?",
+  "placement_fallback": false,
+  "est_prompt_tokens": 6471,
+  "frame_ts": [
+   0.0,
+   1.5,
+   3.25,
+   4.75,
+   6.5,
+   8.25,
+   9.75,
+   11.5,
+   13.25,
+   14.75,
+   16.5,
+   18.25,
+   19.75,
+   21.5,
+   23.25,
+   24.75,
+   26.5,
+   28.0,
+   29.75,
+   31.5,
+   33.0,
+   34.75,
+   36.5,
+   38.0,
+   39.75,
+   41.5,
+   43.0,
+   44.75,
+   46.5,
+   48.0,
+   49.75,
+   51.5
+  ],
+  "duration_s": 51.5,
+  "fps": 60.0,
+  "n_frames_total": 32
+ }
+}

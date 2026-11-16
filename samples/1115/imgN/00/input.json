@@ -1,0 +1,51 @@
+{
+ "id": "s3/data_model_0923__robobrain_clean_packed_64k__robobrain_clean_part1-b75bd7/ps_00000374/s43/t0",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "I am providing you with two images of the same scene from different viewpoints. Locate in image2 the spot that matches the point at [550,243] in image1. Output the coordinates in JSON format."
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "imgN",
+  "group": "/datasets/data_model_0923/robobrain_clean_packed_64k",
+  "dataset": "/datasets/data_model_0923/robobrain_clean_packed_64k/robobrain_clean_part1/webdataset",
+  "bin": "ps_00000374",
+  "sub": 43,
+  "turn": 0,
+  "n_turns": 1,
+  "n_images": 2,
+  "image_sizes": [
+   [
+    896,
+    644
+   ],
+   [
+    896,
+    644
+   ]
+  ],
+  "gt": "{\n\"point_2d\": [742,363]\n}",
+  "question": "<image>\n<image>\nI am providing you with two images of the same scene from different viewpoints. Locate in image2 the spot that matches the point at [550,243] in image1. Output the coordinates in JSON format.",
+  "placement_fallback": false,
+  "est_prompt_tokens": 811
+ }
+}

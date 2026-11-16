@@ -1,0 +1,548 @@
+{
+ "id": "s3/dataset__shortmix_3sets_packed_64k__part6-935c16/ps_00000695/s14/t4",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "<0.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<1.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<2.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_02.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<4.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_03.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<5.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_04.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<6.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_05.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<8.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_06.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<9.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_07.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<11.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_08.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<12.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_09.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<13.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_10.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<15.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_11.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<16.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_12.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<18.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_13.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<19.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_14.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<20.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_15.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<22.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_16.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<23.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_17.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<25.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_18.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<26.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_19.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<27.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_20.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<29.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_21.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<30.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_22.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<32.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_23.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<33.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_24.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<34.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_25.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<36.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_26.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<37.5 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_27.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<39.0 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_28.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<40.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_29.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<41.7 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_30.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "<43.2 seconds>"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_31.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "Which dog appears larger during their play in the field?"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "The predominantly black dog with white markings"
+  },
+  {
+   "role": "user",
+   "content": "What briefly appears at the bottom edge of the video while the dogs are playing?"
+  },
+  {
+   "role": "assistant",
+   "content": "The tip of a shoe"
+  },
+  {
+   "role": "user",
+   "content": "Which event happens earlier in the video?"
+  },
+  {
+   "role": "assistant",
+   "content": "The dogs run toward each other to play"
+  },
+  {
+   "role": "user",
+   "content": "Which best describes the camera perspective throughout the video?"
+  },
+  {
+   "role": "assistant",
+   "content": "Handheld, close to the ground, occasionally showing the filmer’s shoe"
+  },
+  {
+   "role": "user",
+   "content": "How many distinct scenes does the video show?"
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "vshort",
+  "group": "/datasets/feilong-stage3-datasets/dataset/shortmix_3sets_packed_64k",
+  "dataset": "/datasets/feilong-stage3-datasets/dataset/shortmix_3sets_packed_64k/part6/webdataset",
+  "bin": "ps_00000695",
+  "sub": 14,
+  "turn": 4,
+  "n_turns": 5,
+  "n_images": 32,
+  "image_sizes": [
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ],
+   [
+    720,
+    384
+   ]
+  ],
+  "gt": "One continuous outdoor field scene",
+  "question": "How many distinct scenes does the video show?",
+  "placement_fallback": false,
+  "est_prompt_tokens": 6571,
+  "frame_ts": [
+   0.0,
+   1.233,
+   2.733,
+   4.0,
+   5.5,
+   6.733,
+   8.233,
+   9.733,
+   11.0,
+   12.5,
+   13.733,
+   15.233,
+   16.5,
+   18.0,
+   19.5,
+   20.733,
+   22.233,
+   23.5,
+   25.0,
+   26.5,
+   27.733,
+   29.233,
+   30.5,
+   32.0,
+   33.233,
+   34.733,
+   36.233,
+   37.5,
+   39.0,
+   40.233,
+   41.733,
+   43.233
+  ],
+  "duration_s": 43.23,
+  "fps": 30.0,
+  "n_frames_total": 32
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "id": "s3/data_model_0920__ov21sft_56m_packed_L64k_v2__part00-a8bd80/ps_00040813/s20/t3",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_01.jpg"
+     }
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_02.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "Give a brief description of image number 2."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "Top view of a pair of white sneakers with a distinct star design on a marble surface."
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "Write a terse but informative summary of the third picture."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "A before and after comparison of a mandala coloring page."
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "Give a brief description of image number 1."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "A couple stands facing each other on an elegant stone staircase under a bright blue sky with fluffy clouds."
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "How about this image?"
+    },
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_03.jpg"
+     }
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "imgN",
+  "group": "/datasets/data_model_0920/ov21sft_56m_packed_L64k_v2",
+  "dataset": "/datasets/data_model_0920/ov21sft_56m_packed_L64k_v2/part00/webdataset",
+  "bin": "ps_00040813",
+  "sub": 20,
+  "turn": 3,
+  "n_turns": 4,
+  "n_images": 4,
+  "image_sizes": [
+   [
+    256,
+    431
+   ],
+   [
+    256,
+    270
+   ],
+   [
+    236,
+    578
+   ],
+   [
+    467,
+    223
+   ]
+  ],
+  "gt": "A digital audio mixer interface with five channels labeled A to E.",
+  "question": "How about this image?\n<image>",
+  "placement_fallback": false,
+  "est_prompt_tokens": 935
+ }
+}

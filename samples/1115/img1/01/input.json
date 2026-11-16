@@ -1,0 +1,93 @@
+{
+ "id": "s3/feilong-stage4-datasets__pandas70m_long_expand_dynD_47m_packed_64k__pandas70m_part12-e33372/ps_00001327/s15/t4",
+ "messages": [
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "image_url",
+     "image_url": {
+      "url": "img_00.jpg"
+     }
+    },
+    {
+     "type": "text",
+     "text": "How many algorithms have accuracy higher than 1 in at least one dataset?\nAnswer the question using a single word or phrase."
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "Nine."
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "Which algorithm has highest accuracy for any dataset?"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "Laugh."
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "What is the highest accuracy reported in the whole chart?"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "9."
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "Which algorithm has the smallest accuracy summed across all the datasets?"
+    }
+   ]
+  },
+  {
+   "role": "assistant",
+   "content": "Favor."
+  },
+  {
+   "role": "user",
+   "content": [
+    {
+     "type": "text",
+     "text": "Which algorithm has the largest accuracy summed across all the datasets?"
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "stage": "s3",
+  "kind": "img1",
+  "group": "/datasets/feilong-stage4-datasets/pandas70m_long_expand_dynD_47m_packed_64k",
+  "dataset": "/datasets/feilong-stage4-datasets/pandas70m_long_expand_dynD_47m_packed_64k/pandas70m_part12/webdataset",
+  "bin": "ps_00001327",
+  "sub": 15,
+  "turn": 4,
+  "n_turns": 13,
+  "n_images": 1,
+  "image_sizes": [
+   [
+    448,
+    448
+   ]
+  ],
+  "gt": "Horror.",
+  "question": "Which algorithm has the largest accuracy summed across all the datasets?",
+  "placement_fallback": false,
+  "est_prompt_tokens": 320
+ }
+}
